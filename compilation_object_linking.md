@@ -1,6 +1,6 @@
 # Lab: Understanding Compilation, Object Files, and Linking in C
 
-## 🎯 Objective
+## Objective
 
 Demonstrate how a C source file is transformed into machine code through:
 
@@ -8,7 +8,7 @@ Demonstrate how a C source file is transformed into machine code through:
 - Inspection of symbols and low-level code
 - Linking into an executable
 
-## 🧰 Requirements
+## Requirements
 
 - Linux environment (Kali, Ubuntu, WSL, etc.)
 - Tools: `gcc`, `file`, `nm`, `objdump`, `strings`, `hexdump`

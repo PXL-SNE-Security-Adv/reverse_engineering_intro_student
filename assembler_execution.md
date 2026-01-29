@@ -62,7 +62,7 @@ quit             # quit gdb
 
 ## Execute the assembly code
 
-✅ 1. 📝 Save the Code (e.g. sum.asm)
+1. Save the Code (e.g. sum.asm)
 
 ```bash
 nano sum.asm
@@ -87,7 +87,7 @@ _start:
     int 0x80
 ```
 
-✅ 2. 🛠 Assemble with NASM
+2. Assemble with NASM
 
 ELF = Executable and Linkable Format, the universal binary format on Linux/Unix systems.
 
@@ -105,7 +105,7 @@ file sum.o
 sum.o: ELF 32-bit LSB relocatable, Intel 80386, version 1 (SYSV), not stripped
 ```
 
-✅ 3. 🔗 Link with ld (32-bit)
+3. Link with ld (32-bit)
 
 ```bash
 ld -m elf_i386 sum.o -o sum
@@ -121,7 +121,7 @@ file sum
 sum: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, not stripped
 ```
 
-✅ 4. ▶ Run the Executable
+4. ▶ Run the Executable
 
 ```bash
 ./sum
@@ -129,7 +129,7 @@ sum: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked
 
 This will just run and exit (you won’t see output), but the sum is stored in memory.
 
-🧪 5. 🧵 View Result in sum (debug)
+5. View Result in sum (debug)
 
 ```bash
 gdb ./sum       # start gdb
@@ -298,7 +298,7 @@ gs             0x0                 0
 (gdb) quit
 ```
 
-## 📚 Readelf
+## Readelf
 
 ```bash
 readelf -S ./sum
