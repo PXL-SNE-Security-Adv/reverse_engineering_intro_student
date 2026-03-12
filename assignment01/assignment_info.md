@@ -29,7 +29,7 @@ The exercise files are available in the exercise_files folder.
 
 ### Oef4.exe
 
-### Oefening - age.c
+### Oefening - age.c (optional ex, not required)
 
 Compile the following C code and decompile it to better understand how the decompilation works.
 
