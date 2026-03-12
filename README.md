@@ -1,8 +1,8 @@
 # Introduction to reverse engineering
 
-- [Compilation and Linking](compilation_object_linking.md)
-- [PE File Format](PE_file_format.md)
-- [Assembly Language](assembler_execution.md)
+- [Compilation and Linking](compilation_object_linking.md) - EXTRA, niet verplicht
+- [PE File Format](PE_file_format.md) - EXTRA niet verplicht
+- [Assembly Language](assembler_execution.md) - EXTRA niet verplicht
 
 ## Assignments
 
